@@ -1,0 +1,13 @@
+{%- comment -%} Bollina : curseur de souris en forme de B (monogramme), sur ordinateur uniquement {%- endcomment -%}
+<style>
+  @media (hover: hover) and (pointer: fine) {
+    *, *::before, *::after {
+      cursor: url('{{ 'bollina-cursor.svg' | asset_url }}') 3 3, auto !important;
+    }
+    input:not([type='submit'], [type='button'], [type='checkbox'], [type='radio'], [type='range'], [type='color'], [type='file'], [type='reset'], [type='image']),
+    textarea,
+    [contenteditable='true'] {
+      cursor: text !important;
+    }
+  }
+</style>
