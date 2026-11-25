@@ -17,22 +17,50 @@
           "settings": {
             "text": "<p>Nouvelle sélection</p>",
             "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "0.75rem",
+            "line_height": "normal",
             "letter_spacing": "loose",
             "case": "uppercase",
-            "text_color": "#4A0E1E"
-          }
+            "wrap": "pretty",
+            "text_color": "#4a0e1e",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "title": {
           "type": "text",
           "settings": {
             "text": "<h1>Ça pétille</h1>",
             "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
             "type_preset": "h1",
-            "text_color": "#4A0E1E"
-          }
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "#4a0e1e",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "intro": {
           "type": "text",
@@ -40,10 +68,24 @@
             "text": "<p>Des pièces tendance, choisies chez des ateliers européens. Le bon goût, au prix juste.</p>",
             "width": "100%",
             "max_width": "narrow",
+            "alignment": "left",
             "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
             "text_color": "#151012",
-            "padding-block-end": 12
-          }
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 12,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "buttons": {
           "type": "group",
@@ -52,9 +94,36 @@
             "vertical_on_mobile": false,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "fit-content",
-            "height": "fit"
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {
             "btn1": {
@@ -62,16 +131,36 @@
               "settings": {
                 "label": "Voir la sélection",
                 "link": "shopify://collections/all",
-                "style_class": "button"
-              }
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             },
             "btn2": {
               "type": "button",
               "settings": {
                 "label": "Les nouveautés",
                 "link": "shopify://collections/all",
-                "style_class": "button-secondary"
-              }
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -88,12 +177,29 @@
       ],
       "settings": {
         "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
         "section_width": "page-width",
         "section_height": "medium",
-        "background_color": "#F2C4CC",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#f2c4cc",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
         "padding-block-start": 96,
         "padding-block-end": 96
       }
@@ -106,42 +212,75 @@
           "settings": {
             "text": "<p>Fait en Europe, porté partout</p>",
             "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "0.8125rem",
+            "line_height": "normal",
             "letter_spacing": "loose",
             "case": "uppercase",
             "wrap": "nowrap",
-            "text_color": "#F2C4CC"
-          }
+            "text_color": "#f2c4cc",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "m2": {
           "type": "text",
           "settings": {
             "text": "<p>Prix juste</p>",
             "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "0.8125rem",
+            "line_height": "normal",
             "letter_spacing": "loose",
             "case": "uppercase",
             "wrap": "nowrap",
-            "text_color": "#F2C4CC"
-          }
+            "text_color": "#f2c4cc",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "m3": {
           "type": "text",
           "settings": {
             "text": "<p>Livraison offerte dès [MONTANT] €</p>",
             "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "0.8125rem",
+            "line_height": "normal",
             "letter_spacing": "loose",
             "case": "uppercase",
             "wrap": "nowrap",
-            "text_color": "#F2C4CC"
-          }
+            "text_color": "#f2c4cc",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
@@ -150,111 +289,11 @@
         "m3"
       ],
       "settings": {
-        "background_color": "#4A0E1E",
+        "movement_direction": "normal",
+        "background_color": "#4a0e1e",
         "padding-block-start": 16,
         "padding-block-end": 16,
         "gap_between_elements": 48
-      }
-    },
-    "brand": {
-      "type": "section",
-      "blocks": {
-        "b1": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Ta petite bulle</h2>",
-            "width": "fit-content",
-            "alignment": "center",
-            "type_preset": "h2",
-            "text_color": "#FFFFFF"
-          }
-        },
-        "b2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bollina, c’est ma sélection de pièces girly, intenses et chic, trouvées chez des ateliers européens. Peu de stock, beaucoup d’amour : quand c’est parti, c’est parti.</p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "text_color": "#F2C4CC",
-            "padding-block-end": 12
-          }
-        },
-        "b3": {
-          "type": "button",
-          "settings": {
-            "label": "Découvrir Bollina",
-            "link": "/pages/a-propos",
-            "style_class": "button-custom",
-            "custom_button_background": "rgba(0,0,0,0)",
-            "custom_button_text": "#F2C4CC",
-            "custom_button_border": "#F2C4CC"
-          }
-        }
-      },
-      "block_order": [
-        "b1",
-        "b2",
-        "b3"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 20,
-        "section_width": "page-width",
-        "background_color": "#4A0E1E",
-        "padding-block-start": 96,
-        "padding-block-end": 96
-      }
-    },
-    "instagram": {
-      "type": "section",
-      "blocks": {
-        "i1": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Ciao @bollina</h2>",
-            "width": "fit-content",
-            "alignment": "center",
-            "type_preset": "h2"
-          }
-        },
-        "i2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Les looks, les coulisses et les nouveautés avant tout le monde.</p>",
-            "width": "fit-content",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "padding-block-end": 8
-          }
-        },
-        "i3": {
-          "type": "button",
-          "settings": {
-            "label": "Suivre sur Instagram",
-            "link": "https://www.instagram.com/bollina",
-            "open_in_new_tab": true,
-            "style_class": "button"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "background_color": "#FFFFFF",
-        "padding-block-start": 80,
-        "padding-block-end": 80
       }
     },
     "new_products": {
@@ -280,11 +319,13 @@
             "height": "fit",
             "custom_height": 100,
             "background_media": "none",
+            "background_color": "",
             "video_position": "cover",
             "background_image_position": "cover",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
+            "border_color": "",
             "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -307,11 +348,16 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             },
             "product_list_button": {
               "type": "_product-list-button",
@@ -320,11 +366,16 @@
                 "label": "Tout voir",
                 "open_in_new_tab": false,
                 "style_class": "button-unstyled",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
                 "custom_width_mobile": 100
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -338,9 +389,11 @@
           "static": true,
           "settings": {
             "product_card_gap": 4,
+            "background_color": "",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
+            "border_color": "",
             "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -356,12 +409,14 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
+                "border_color": "",
                 "border_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             },
             "product_title": {
               "type": "product-title",
@@ -377,6 +432,7 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
+                "text_color": "",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -384,7 +440,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             },
             "price": {
               "type": "price",
@@ -401,11 +458,13 @@
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
+                "text_color": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -422,12 +481,15 @@
         "max_products": 4,
         "columns": 4,
         "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
         "columns_gap": 24,
         "rows_gap": 32,
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
         "gap": 28,
+        "background_color": "",
         "padding-block-start": 64,
         "padding-block-end": 64
       }
@@ -443,6 +505,7 @@
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
+            "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 16,
@@ -453,12 +516,21 @@
             "height": "fit",
             "custom_height": 100,
             "background_media": "none",
+            "background_color": "",
             "video_position": "cover",
             "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
+            "border_color": "",
             "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -480,11 +552,16 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 16,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -499,20 +576,15 @@
             "placement": "on_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-end",
+            "collection_card_gap": 8,
+            "background_color": "",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
+            "border_color": "",
             "border_radius": 0
           },
           "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "name": "t:names.collection_card_image",
-              "static": true,
-              "settings": {
-                "image_ratio": "portrait"
-              }
-            },
             "collection-title": {
               "type": "collection-title",
               "name": "t:names.collection_title",
@@ -529,12 +601,32 @@
                 "wrap": "nowrap",
                 "background": true,
                 "background_color": "#ffffff",
+                "text_color": "{{ settings.color_palette.foreground }}",
                 "corner_radius": 50,
                 "padding-block-start": 6,
                 "padding-block-end": 6,
                 "padding-inline-start": 16,
                 "padding-inline-end": 16
-              }
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "t:names.collection_card_image",
+              "static": true,
+              "settings": {
+                "image_ratio": "portrait",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -546,17 +638,235 @@
         "group_Lg9LkF"
       ],
       "settings": {
+        "collection_list": [],
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "columns": 3,
         "mobile_columns": "1",
+        "mobile_card_size": "60cqw",
         "columns_gap": 24,
         "bento_gap": 8,
         "rows_gap": 24,
         "max_collections": 3,
+        "icons_style": "arrow",
+        "icons_shape": "none",
         "section_width": "page-width",
+        "gap": 12,
+        "background_color": "",
         "padding-block-start": 0,
         "padding-block-end": 64
+      }
+    },
+    "brand": {
+      "type": "section",
+      "blocks": {
+        "b1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ta petite bulle</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "#ffffff",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "b2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bollina, c’est ma sélection de pièces girly, intenses et chic, trouvées chez des ateliers européens. Peu de stock, beaucoup d’amour &lt;3</p>",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "#f2c4cc",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 12,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "b3": {
+          "type": "button",
+          "settings": {
+            "label": "Découvrir Bollina",
+            "link": "/pages/a-propos",
+            "open_in_new_tab": false,
+            "style_class": "button-custom",
+            "custom_button_background": "rgba(0,0,0,0)",
+            "custom_button_text": "#f2c4cc",
+            "custom_button_border": "#f2c4cc",
+            "link_text_color": "",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#4a0e1e",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 96,
+        "padding-block-end": 96
+      }
+    },
+    "instagram": {
+      "type": "section",
+      "blocks": {
+        "i1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ciao @bollina</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "i2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les looks, les coulisses et les nouveautés avant tout le monde.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "i3": {
+          "type": "button",
+          "settings": {
+            "label": "Suivre sur Instagram",
+            "link": "https://www.instagram.com/bollina",
+            "open_in_new_tab": true,
+            "style_class": "button",
+            "custom_button_background": "{{ settings.color_palette.foreground }}",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#ffffff",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 80,
+        "padding-block-end": 80
       }
     }
   },
