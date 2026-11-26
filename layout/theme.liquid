@@ -24,6 +24,7 @@
     {%- render 'theme-styles-variables' -%}
     {%- render 'bollina-brand-fonts' -%}
     {%- render 'bollina-cursor' -%}
+    {%- render 'bollina-seo' -%}
     {%- if template.name == 'collection' or template.name == 'search' -%}{%- render 'bollina-collection-styles' -%}{%- endif -%}
     {%- render 'color-palette' -%}
 
@@ -161,5 +162,6 @@
     {% if settings.quick_add or settings.mobile_quick_add %}
       {% render 'quick-add-modal' %}
     {% endif %}
+    {%- render 'bollina-cookies' -%}
   </body>
 </html>

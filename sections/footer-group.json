@@ -128,11 +128,49 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "menu_infos": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "heading": "Infos pratiques",
+            "menu_spacing": 8,
+            "show_as_accordion": true,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "heading_preset": "h6",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "menu_legal": {
+          "type": "menu",
+          "settings": {
+            "menu": "informations-legales",
+            "heading": "Informations légales",
+            "menu_spacing": 8,
+            "show_as_accordion": true,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "heading_preset": "h6",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "group_H6VpwJ",
-        "email_signup_crihX7"
+        "email_signup_crihX7",
+        "menu_infos",
+        "menu_legal"
       ],
       "name": "t:names.footer",
       "settings": {

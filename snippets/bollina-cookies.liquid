@@ -1,0 +1,16 @@
+{%- comment -%}
+  Bollina : le lien « Préférences de cookies » (href="#cookies") rouvre la fenêtre
+  de consentement de Shopify, pour que chaque visiteuse puisse changer d'avis (RGPD).
+{%- endcomment -%}
+<script>
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href$="#cookies"]');
+    if (!link) return;
+    event.preventDefault();
+    if (window.privacyBanner && typeof window.privacyBanner.showPreferences === 'function') {
+      window.privacyBanner.showPreferences();
+    } else {
+      window.location.href = '{{ pages["confidentialite-et-cookies"].url | default: "/pages/confidentialite-et-cookies" }}';
+    }
+  });
+</script>

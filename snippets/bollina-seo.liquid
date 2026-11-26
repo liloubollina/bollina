@@ -1,0 +1,30 @@
+{%- comment -%} Bollina : données structurées pour Google (marque, logo, réseaux, recherche) {%- endcomment -%}
+{%- if template.name == 'index' -%}
+  {%- capture bollina_search_target -%}{{ request.origin }}{{ routes.search_url }}?q={% raw %}{search_term_string}{% endraw %}{%- endcapture -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClothingStore",
+      "name": {{ shop.name | json }},
+      "url": {{ request.origin | append: routes.root_url | json }},
+      {%- if settings.logo != blank -%}
+        "logo": {{ settings.logo | image_url: width: 600 | prepend: 'https:' | json }},
+      {%- endif -%}
+      "description": {{ shop.description | default: 'Boutique en ligne de vêtements tendance pour femmes, sélectionnés chez des ateliers européens, au prix juste.' | json }},
+      "sameAs": ["https://www.instagram.com/bollina", "https://www.tiktok.com/@bollina"]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ shop.name | json }},
+      "url": {{ request.origin | append: routes.root_url | json }},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {{ bollina_search_target | json }},
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+{%- endif -%}
