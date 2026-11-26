@@ -1,0 +1,758 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section",
+      "blocks": {
+        "e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Besoin d’aide</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "0.75rem",
+            "line_height": "normal",
+            "letter_spacing": "loose",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "text_color": "#4a0e1e",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Questions fréquentes</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "#4a0e1e",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livraison, retours, tailles : tout ce que tu veux savoir avant de craquer.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "#151012",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "e",
+        "t",
+        "p"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 14,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#f2c4cc",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
+    "infos": {
+      "type": "section",
+      "blocks": {
+        "livraison": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "solid",
+            "border_width": 2,
+            "border_opacity": 100,
+            "border_color": "#4a0e1e",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 28,
+            "padding-block-end": 28,
+            "padding-inline-start": 28,
+            "padding-inline-end": 28
+          },
+          "blocks": {
+            "t": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Livraison</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#4a0e1e",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Offerte dès [MONTANT] €. Sinon [PRIX] €. Expédiée sous [DÉLAI] jours ouvrés.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#151012",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "t",
+            "p"
+          ]
+        },
+        "retours": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "solid",
+            "border_width": 2,
+            "border_opacity": 100,
+            "border_color": "#4a0e1e",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 28,
+            "padding-block-end": 28,
+            "padding-inline-start": 28,
+            "padding-inline-end": 28
+          },
+          "blocks": {
+            "t": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Retours</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#4a0e1e",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Tu as [N] jours pour changer d’avis. Le retour est [GRATUIT / À TA CHARGE].</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#151012",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "t",
+            "p"
+          ]
+        },
+        "paiement": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 10,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "solid",
+            "border_width": 2,
+            "border_opacity": 100,
+            "border_color": "#4a0e1e",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 28,
+            "padding-block-end": 28,
+            "padding-inline-start": 28,
+            "padding-inline-end": 28
+          },
+          "blocks": {
+            "t": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Paiement</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#4a0e1e",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Carte bancaire et [AUTRES MOYENS]. Paiement 100 % sécurisé.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#151012",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "t",
+            "p"
+          ]
+        }
+      },
+      "block_order": [
+        "livraison",
+        "retours",
+        "paiement"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "stretch",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "stretch",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 56,
+        "padding-block-end": 24
+      }
+    },
+    "questions": {
+      "type": "section",
+      "blocks": {
+        "acc": {
+          "type": "accordion",
+          "settings": {
+            "icon": "plus",
+            "dividers": true,
+            "divider_color": "{{ settings.color_palette.color2 }}",
+            "type_preset": "h5"
+          },
+          "blocks": {
+            "q0": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Quand vais-je recevoir ma commande ?",
+                "open_by_default": true
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Je prépare ton colis sous [DÉLAI] jours ouvrés. Ensuite, compte [DÉLAI] jours pour la livraison en France. Tu reçois un lien de suivi par e-mail dès le départ.</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            },
+            "q1": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Comment faire un retour ?",
+                "open_by_default": false
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[EXPLIQUE ICI COMMENT RETOURNER UNE PIÈCE : délai, adresse, remboursement.]</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            },
+            "q2": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Comment choisir ma taille ?",
+                "open_by_default": false
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Chaque fiche produit indique la taille du mannequin et la coupe. [AJOUTE TON GUIDE DES TAILLES.]</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            },
+            "q3": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Je peux modifier ma commande ?",
+                "open_by_default": false
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Écris-moi vite via la page Contact : tant que le colis n’est pas parti, on s’arrange.</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            },
+            "q4": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Vous livrez hors de France ?",
+                "open_by_default": false
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>[PAYS LIVRÉS ET TARIFS.]</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            },
+            "q5": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Une pièce est épuisée, elle va revenir ?",
+                "open_by_default": false
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Les pièces existent en petite quantité. Certaines reviennent, d’autres non : suis @bollina pour être au courant.</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            },
+            "q6": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "D’où viennent les vêtements ?",
+                "open_by_default": false
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Ils sont sélectionnés chez des ateliers européens, choisis un par un.</p>",
+                    "width": "100%"
+                  }
+                }
+              },
+              "block_order": [
+                "t"
+              ]
+            }
+          },
+          "block_order": [
+            "q0",
+            "q1",
+            "q2",
+            "q3",
+            "q4",
+            "q5",
+            "q6"
+          ]
+        },
+        "cta": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "#4a0e1e",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 2,
+            "border_opacity": 100,
+            "border_color": "#4a0e1e",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 28,
+            "padding-block-end": 28,
+            "padding-inline-start": 28,
+            "padding-inline-end": 28
+          },
+          "blocks": {
+            "t": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Pas trouvé ta réponse ?</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#ffffff",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Écris-moi, je te réponds vite.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#f2c4cc",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "b": {
+              "type": "button",
+              "settings": {
+                "label": "Me contacter",
+                "link": "/pages/contact",
+                "open_in_new_tab": false,
+                "style_class": "button-custom",
+                "custom_button_background": "#f2c4cc",
+                "custom_button_text": "#4a0e1e",
+                "custom_button_border": "#f2c4cc",
+                "link_text_color": "",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "t",
+            "p",
+            "b"
+          ]
+        }
+      },
+      "block_order": [
+        "acc",
+        "cta"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 40,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 32,
+        "padding-block-end": 96
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "infos",
+    "questions"
+  ]
+}
