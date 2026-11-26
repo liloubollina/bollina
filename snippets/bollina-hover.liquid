@@ -1,0 +1,47 @@
+{%- comment -%} Bollina : effets au survol des liens (menu, pied de page, textes, cartes produit) {%- endcomment -%}
+<style>
+  /* Menu du haut : trait framboise sous le lien survolé et sous la page active */
+  .menu-list__link-title {
+    background-image: linear-gradient(#d9466f, #d9466f);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    padding-bottom: 3px;
+    transition: background-size 0.25s ease;
+  }
+  .menu-list__link--active .menu-list__link-title {
+    background-size: 100% 2px;
+  }
+  @media (hover: hover) {
+    .menu-list__list-item:hover .menu-list__link-title,
+    .menu-list__link:focus-visible .menu-list__link-title {
+      background-size: 100% 2px;
+    }
+
+    /* Pied de page et liens dans les textes : soulignés en bordeaux */
+    .menu__item a,
+    .footer-utilities a {
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+      transition: text-decoration-color 0.2s ease;
+    }
+    .menu__item a:hover,
+    .footer-utilities a:hover {
+      text-decoration-color: #4a0e1e;
+    }
+    .rte a:hover,
+    .text-block a:hover {
+      text-decoration-color: #d9466f;
+      text-decoration-thickness: 2px;
+    }
+
+    /* Cartes produit : le nom se souligne au survol */
+    product-card:hover [role='heading'] {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+  }
+</style>
