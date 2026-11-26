@@ -24,6 +24,7 @@
     {%- render 'theme-styles-variables' -%}
     {%- render 'bollina-brand-fonts' -%}
     {%- render 'bollina-cursor' -%}
+    {%- if template.name == 'collection' or template.name == 'search' -%}{%- render 'bollina-collection-styles' -%}{%- endif -%}
     {%- render 'color-palette' -%}
 
     {% if request.design_mode %}

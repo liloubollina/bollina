@@ -1,0 +1,25 @@
+{%- comment -%} Bollina : filtres et tri des collections en forme de pilules, aux couleurs de la marque {%- endcomment -%}
+<style>
+  .facets-toggle__button {
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1.5px solid #4a0e1e;
+    border-radius: 999px;
+    color: #4a0e1e;
+  }
+  @media screen and (min-width: 750px) {
+    .facets--horizontal .facets__summary {
+      gap: 8px;
+      padding: 0 18px;
+      border: 1.5px solid #4a0e1e;
+      border-radius: 999px;
+      color: #4a0e1e;
+      font-weight: 500;
+      opacity: 1;
+    }
+    .facets--horizontal .facets__panel[open] .facets__summary {
+      background: #4a0e1e;
+      color: #ffffff;
+    }
+  }
+</style>
